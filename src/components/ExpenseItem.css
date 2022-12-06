@@ -1,0 +1,28 @@
+* {
+  font-family: sans-serif;
+}
+
+.expense-item {
+  display: flex;
+  width: inherit;
+  gap: 1rem;
+  background-color: hsl(0, 0%, 10%);
+  color: white;
+  border-radius: 10px;
+  padding-block: 1rem;
+  padding-inline: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-block: 1rem;
+}
+.expense-item-des {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.expense-item-des > h2 {
+  font-weight: 10;
+}
+.expense-item-date {
+  color: rgb(153, 152, 152);
+}
