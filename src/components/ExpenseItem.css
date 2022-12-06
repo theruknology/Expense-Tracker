@@ -25,4 +25,7 @@
 }
 .expense-item-date {
   color: rgb(153, 152, 152);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
