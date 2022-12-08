@@ -1,4 +1,5 @@
 import React from "react";
+import NewExpense from "./components/NewExpense/NewExpense";
 import Expenses from "./components/Expenses/Expenses";
 import './App.css'
 
@@ -10,7 +11,15 @@ export default function App() {
     { title: "Carrier Insurance", amount: 2.6, date: new Date(2021, 3, 2) },
   ];
 
+  const addExpenseHandler = expenses => {
+    console.log('In App.js:');
+    console.log(expenses);
+  }
+
   return (
-    <Expenses items={ expenses } />
+    <>
+      <NewExpense onAddExpense={ addExpenseHandler }/>    
+      <Expenses items={ expenses } />
+    </>
   );
 }
