@@ -7,3 +7,11 @@ body {
   padding: 0.5rem;
   background-color: rgba(16, 24, 32, 0.89);
 }
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 700px;
+  margin-inline: auto;
+}

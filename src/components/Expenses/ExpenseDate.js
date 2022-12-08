@@ -8,7 +8,8 @@ export default function ExpenseDate( props ) {
 
   return (
     <div className="expense-item-date">
-      <p>{ day } { month }</p>
+      <p>{ month }</p>
+      <p className='calendar-day'>{ day }</p>
       <p>{ year }</p>
     </div>
 
