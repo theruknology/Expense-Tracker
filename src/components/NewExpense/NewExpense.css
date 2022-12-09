@@ -1,6 +1,6 @@
-* {
-  /* outline: 1px solid red; */
-}
+/* * {
+  outline: 1px solid red;
+} */
 .new-expense {
   /* background-color: hsl(155, 100%, 63%); */
   margin-top: 10px;
@@ -11,6 +11,7 @@
 }
 .new-expense > form {
   display: flex;
+  flex-direction: column;
   gap: 1rem;
   padding: 1rem;
   justify-content: center;
@@ -44,4 +45,11 @@ gap: 1rem;
 .new-expense-actions {
   display: flex;
   justify-content: center;
+  gap: 3rem;
+}
+.new-expense-button {
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
 }
